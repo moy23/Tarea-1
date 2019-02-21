@@ -1,0 +1,46 @@
+PRACTICA 1
+
+function setup() {
+  createCanvas(400, 400);
+}
+function draw() {
+  background(0);
+  stroke (255);
+  line(200,0, 200,200);
+  line(200,200,25,400);
+  line(200,200,375,400);
+  
+}
+PRACTICA 2
+
+
+function setup() {
+  createCanvas(400, 400);
+}
+function draw() {
+  background(255);
+  fill(255,0,0);
+  rect(0,0,133,400);
+  fill(0,255,0);
+  rect(133,0,133,400);
+  fill(0,0,200);
+  rect(266,0,133,400);
+  
+  
+}
+
+PRACTICA 3
+
+function setup() {
+  createCanvas(400, 400);
+}
+function draw() {
+  background(255);
+  stroke(255,0,0);
+  strokeWeight(20);
+  ellipse(200,200,200,200);
+  line(130,130,270,270);
+  
+  
+  
+}
